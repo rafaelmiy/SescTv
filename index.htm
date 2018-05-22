@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<!-- saved from url=(0013)about:internet -->
+	<head>
+		<title>Sesc TV</title>
+		
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="imagetoolbar" content="no" />
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.innerfade.js"></script>
+		<script type="text/javascript">
+	   $(document).ready(
+				function(){
+					
+					$('#imgs').innerfade({
+						speed: 1000,
+						timeout: 5000,
+						type: 'sequence',
+						containerheight: '220px'
+					});
+
+			});
+  	</script>
+
+		<link rel="stylesheet" href="css/reset.css"  type="text/css" media="all" />
+		<link rel="stylesheet" href="css/fonts.css"  type="text/css" media="all" />
+		<style type="text/css" media="screen, projection">
+					@import url(css/jq_fade.css);
+		</style>
+		<style>
+			body{
+				overflow: hidden;
+			}
+			#imgs,
+			#imgs li,
+			#imgs img{
+				width: 100%;
+			}
+		</style>		
+	</head>
+	<body>				
+			<div>
+				<ul id="imgs">					
+					<li>
+						<img src="images/emre-gencer-228223-unsplash.jpg" alt="Good Guy bad Guy" />
+					</li>
+					<li>
+						<img src="images/jon-asato-246160-unsplash.jpg" alt="Whizzkids" />
+					</li>					
+					<li>
+						<img src="images/autumn-goodman-230240-unsplash.jpg" alt="Königin Mutter" />
+					</li>					
+					<li>
+						<img src="images/chase-clark-509092-unsplash.jpg" alt="RT Hybride Archivierung" />
+					</li>		
+					<!-- <li>
+						<img src="images/tuev.jpg" alt="TÜV SÜD Gruppe" />
+					</li>				 -->
+				</ul>
+			</div>				
+	</body>
+</html>
